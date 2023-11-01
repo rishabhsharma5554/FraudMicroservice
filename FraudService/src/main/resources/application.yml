@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: FRAUD-SERVICE
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/userfraudmicroservicedb
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update

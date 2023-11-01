@@ -1,0 +1,8 @@
+package com.rishabhtech.FraudService.APIResponse;
+
+import lombok.Data;
+
+@Data
+public class FraudCheckAPIResponse {
+	private Boolean isFraudster;
+}

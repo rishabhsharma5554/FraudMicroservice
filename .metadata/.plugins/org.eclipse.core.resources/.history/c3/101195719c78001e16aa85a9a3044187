@@ -1,0 +1,5 @@
+package com.rishabhtech.FraudService.service;
+
+public class FraudCheckService {
+
+}

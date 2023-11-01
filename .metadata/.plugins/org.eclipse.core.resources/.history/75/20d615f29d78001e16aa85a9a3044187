@@ -1,0 +1,20 @@
+package com.rishabhtech.FraudService.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.rishabhtech.FraudService.repo.FraudRepository;
+
+@Service
+public class FraudCheckServiceImpl implements FraudCheckService {
+
+	@Autowired
+	private FraudRepository fraudRepo;
+	
+	@Override
+	public boolean isFraudster(Integer customerId) 
+	{
+		return false;
+	}
+
+}

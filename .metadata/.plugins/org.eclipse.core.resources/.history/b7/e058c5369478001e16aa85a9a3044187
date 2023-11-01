@@ -1,0 +1,5 @@
+package com.rishabhtech.FraudService.controller;
+
+public class FraudController {
+
+}

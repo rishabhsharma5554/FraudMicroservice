@@ -1,0 +1,9 @@
+package com.rishabhtech.FraudService.service;
+
+import com.rishabhtech.FraudService.entity.FraudCheckHistory;
+
+public interface FraudCheckService {
+	public boolean isFraudster(Integer customerId);
+	public List<FraudCheckHistory> getAllSummary();
+	
+}

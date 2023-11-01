@@ -1,0 +1,11 @@
+package com.rishabhtech.FraudService.service;
+
+public class FraudCheckServiceImpl implements FraudCheckService {
+
+	@Override
+	public boolean isFraudster(Integer customerId) {
+		
+		return false;
+	}
+
+}
