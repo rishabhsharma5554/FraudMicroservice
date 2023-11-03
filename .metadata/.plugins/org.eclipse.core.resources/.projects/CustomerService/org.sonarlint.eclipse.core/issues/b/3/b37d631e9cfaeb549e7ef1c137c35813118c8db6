@@ -1,11 +1,11 @@
 
-u
-java:S3457:"AFormat specifiers should be used instead of string concatenation.b 94342e70c2d48619ba3442f504a34695h
 ç
-java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").b 3fa5d2de3619924f8dbb4d0c1c127d57h
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").b 3fa5d2de3619924f8dbb4d0c1c127d57h
 ç
-java:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").b c80d32a04e6589522b5baeb568025ff0h
-i
-java:S2209<"5Change this instance-reference to a static reference.b 58ed53766bcebe349daf6be89d8d96e7h
-o	java:S125("<This block of commented-out lines of code should be removed.b f95b70fdc3088560732a5ac135644506h
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").b c80d32a04e6589522b5baeb568025ff0h
 ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 7e63268c8b07458afae42fbb31f1109ah
+o	java:S125$"<This block of commented-out lines of code should be removed.b f95b70fdc3088560732a5ac135644506h
+u
+java:S34576"AFormat specifiers should be used instead of string concatenation.b 94342e70c2d48619ba3442f504a34695h
+i
+java:S22097"5Change this instance-reference to a static reference.b 58ed53766bcebe349daf6be89d8d96e7h

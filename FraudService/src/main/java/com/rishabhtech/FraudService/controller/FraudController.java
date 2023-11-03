@@ -34,8 +34,6 @@ public class FraudController {
 //		return "Welcome to my Homepage.";
 //	}
 	
-	
-	//CustomerService wil call this api using feign client
 	@GetMapping("/{customerId}")
 	public FraudCheckAPIResponse isFraudster(@PathVariable(name = "customerId") Integer custId)
 	{
