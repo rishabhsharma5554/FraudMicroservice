@@ -27,6 +27,10 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public void saveCustomer(Customer customer) {
         logger.info("Saving Customer with id "+customer.getCustEmail());
+        //call Fraud Service using Feign Clients
+        //http://localhost:8081/api/v1/fraud/23
+        
+        
         this.customerRepo.save(customer);
         logger.info("Done Saving");
     }

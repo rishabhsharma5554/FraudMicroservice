@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.rishabhtech.CustomerService.client.FraudServiceClient;
 import com.rishabhtech.CustomerService.customResponse.APIResponse;
 import com.rishabhtech.CustomerService.dao.Customer;
 import com.rishabhtech.CustomerService.service.CustomerService;
@@ -28,6 +29,9 @@ public class CustomerController {
 
     @Autowired
     private CustomerService customerService;
+    
+    @Autowired
+    private FraudServiceClient fraudServiceClient;
     
     private final Logger logger = LoggerFactory.getLogger(CustomerController.class);
 
@@ -52,6 +56,7 @@ public class CustomerController {
     {
         this.customerService.saveCustomer(customer);
         logger.info("Customer Saved with Name"+customer.getCustFirstName());
+        this.fraudServiceClient.isFraudster(customer.getCustId());
         return new ResponseEntity<APIResponse>(new APIResponse()
                 .builder()
                 .message("Customer Saved Successfully")

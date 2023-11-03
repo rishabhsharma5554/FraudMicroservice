@@ -1,4 +1,2 @@
 
 ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b c66f44d692b3b46d3c9a6fe3771044e4h
-é
-java:S1128"SRemove this unused import 'org.springframework.cloud.openfeign.EnableFeignClients'.8˘µå‘∏1b abb66b75981fbab14f8ab78f703b746bh

@@ -13,3 +13,10 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+    
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    

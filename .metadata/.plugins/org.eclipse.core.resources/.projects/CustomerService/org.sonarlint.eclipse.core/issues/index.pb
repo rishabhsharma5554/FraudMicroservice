@@ -11,3 +11,13 @@ M
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 R
 "src/main/resources/application.yml,a\6\a6d8b8556fee0e03112ce2bf34b8cb27a7dc9e58
+z
+Jsrc/main/java/com/rishabhtech/CustomerService/repository/CustomerRepo.java,f\7\f7177bc338a8a472ff0b2d377fff99827f1ad39d
+o
+?src/main/java/com/rishabhtech/CustomerService/dao/Customer.java,1\c\1cdcb71c3a7000f4e170c46f7a11ae0d5fa7540c
+‡
+Wsrc/main/java/com/rishabhtech/CustomerService/customResponse/FraudCheckAPIResponse.java,d\9\d9c6f0cd52d3ef19d9e51919aafb09a773b2af83
+z
+Jsrc/main/java/com/rishabhtech/CustomerService/service/CustomerService.java,1\c\1c92c0316a49d69190ea52532a6f693b36678809
+|
+Lsrc/main/java/com/rishabhtech/CustomerService/client/FraudServiceClient.java,9\9\99b52a49cea540ba54863080c176e894ea8f0564
