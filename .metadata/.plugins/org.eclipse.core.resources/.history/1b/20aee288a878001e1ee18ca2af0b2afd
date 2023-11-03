@@ -1,0 +1,10 @@
+package com.rishabhtech.CustomerService.customResponse;
+
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class FraudCheckAPIResponse {
+	private Boolean isFraudster;
+}
+

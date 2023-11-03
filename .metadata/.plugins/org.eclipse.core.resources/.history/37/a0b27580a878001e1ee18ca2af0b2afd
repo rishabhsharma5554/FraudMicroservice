@@ -1,0 +1,5 @@
+package com.rishabhtech.CustomerService.customResponse;
+
+public class FraudCheckAPIResponse {
+
+}

@@ -1,0 +1,13 @@
+package com.rishabhtech.CustomerService.client;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@FeignClient(name="FRAUD-SERVICE")
+public interface FraudServiceClient {
+	
+	//http://localhost:8081/api/v1/fraud/23
+	@GetMapping("/api/v1/fraud/{customerId}")
+	public void isFraudster(Integer custId);
+
+}

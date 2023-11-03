@@ -1,0 +1,5 @@
+package com.rishabhtech.CustomerService.client;
+
+public interface FraudServiceClient {
+
+}
